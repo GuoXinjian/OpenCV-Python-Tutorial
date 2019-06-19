@@ -15,8 +15,12 @@ from matplotlib import pyplot as plt
 from time import sleep
 
 # 运行之前，检查cascade文件路径是否在你的电脑上
-face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_eye.xml')
+
+face_cascade = cv2.CascadeClassifier('C:/Users/follo/Desktop/detectdata/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('C:/Users/follo/Desktop/detectdata/haarcascade_eye.xml')
+
+# face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
+# eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_eye.xml')
 
 # img = cv2.imread('../../data/sachin.jpg')
 # img = cv2.imread('../../data/kongjie_hezhao.jpg')
